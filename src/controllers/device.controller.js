@@ -16,7 +16,7 @@ const receiveAccessLog = (req, res) => {
 
     const data = req.body;
 
-    console.log("Access Log Received:");
+    console.log("ACCESS LOG:");
     console.log(data);
 
     res.json({
